@@ -84,7 +84,7 @@ public class ParameterizedTests {
     }
 
     @Test
-    public void testSearch() {
+    public void FreeConsultSubmitTest() {
         mainPage.GoToMainPage();
         mainPage.EnterDataToGetFreeConsult(name, email, phoneNum);
         mainPage.SubmitFreeConsult();
